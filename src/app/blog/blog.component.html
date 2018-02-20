@@ -1,0 +1,7 @@
+<div class="grid grid-pad">
+    <a *ngFor="let blog of blogs" [attr.href]="blog.url" class="col-1-4">
+      <div class="module hero">
+       <h4>{{blog.title}}</h4>
+      </div>
+    </a>
+</div>
